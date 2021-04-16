@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    font-family: "Lobster", cursive;
+    font-size: 30px;
+  }
+
+  div {
+    padding: 0;
+    margin: 0 10px;
+  }
+
+  svg {
+    cursor: pointer;
+  }
+
+  .header-dropdown-wrapper {
+    position: relative;
+  }
+
+  .header-dropdown {
+    display: none;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    background-color: #fff;
+    margin: 0;
+  }
+
+  .header-dropdown-count {
+    background-color: #e03400;
+    border-radius: 1.25rem;
+    text-align: center;
+    box-sizing: content-box;
+    min-width: 1.25rem;
+    min-height: 1.25rem;
+    line-height: 1.25rem;
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .hamburger:hover .header-dropdown {
+    transition: transform 3s ease-in-out; /* NOT WORKING */
+    display: block;
+  }
+
+  .header-dropdown ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  .header-dropdown li {
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    white-space: nowrap;
+  }
+
+  .header-dropdown li:hover {
+    background-color: #ddd;
+  }
+}

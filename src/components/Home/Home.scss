@@ -1,0 +1,113 @@
+.home {
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    .home-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0;
+        margin: 0;
+        width: 200px;
+        min-width: 200px;
+        max-width: 200px;
+    }
+
+    .home-body {
+        padding: 0;
+        margin: 10px 20px;
+    }
+
+    .posts {
+        border: 1px solid #e0dfdc;
+        border-radius: 4px;
+        margin-bottom: 15px;
+
+        .post-header {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            margin: 0 8px;
+            border-bottom: 1px solid #e0dfdc;
+
+            .title {
+                font-size: 14px;
+                color: #00000099;
+
+                span {
+                    font-weight: 700;
+                    color: black;
+                }
+            }
+
+            .more-btn {
+                background: transparent;
+                color: #0a66c2;
+                outline: none;
+                border: 0;
+                border-radius: 4px;
+                font-size: 20px;
+                font-weight: 800;
+                vertical-align: middle;
+
+                &:hover {
+                    background: #00000014;
+                }
+            }
+        }
+
+        .user-info {
+            padding: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .avatar {
+                h5, p, h6 {
+                    margin: 0;
+                }
+
+                h6 {
+                    color: #00000099;
+                }
+            }
+
+            .follow-btn {
+                background: transparent;
+                color: #0a66c2;
+                outline: none;
+                border: 0;
+                border-radius: 4px;
+
+                &:hover {
+                    background: #70b5f933;
+                }
+            }
+        }
+
+        .post-detail {
+            padding: 8px 0;
+            margin: 0 8px;
+            border-bottom: 1px solid #e0dfdc;
+        }
+
+        .post-footer {
+            padding: 8px;
+
+            button {
+                background: transparent;
+                color: #0a66c2;
+                outline: none;
+                border: 0;
+                display: inline-flex;
+                align-items: center;
+
+                &:hover {
+                    background: #00000014;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}

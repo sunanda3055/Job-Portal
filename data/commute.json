@@ -1,0 +1,21 @@
+{
+  "label": "Commute",
+  "index": 4,
+  "list": [
+    "5 miles max",
+    "10 miles max",
+    "15 miles max",
+    "20 miles max",
+    "25 miles max",
+    "50 miles max",
+    "75 miles max",
+    "100 miles max",
+    "5 minutes max",
+    "10 minutes max",
+    "15 minutes max",
+    "20 minutes max",
+    "30 minutes max",
+    "60 minutes max",
+    "120 minutes max"
+  ]
+}

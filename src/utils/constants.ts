@@ -1,0 +1,40 @@
+export const SHOW_FILTER_TECH_STACK: number = 0
+export const SHOW_FILTER_PAYMENT: number = 1
+export const SHOW_FILTER_INDUSTRY: number = 2
+export const SHOW_FILTER_BENEFITS: number = 3
+export const SHOW_FILTER_COMMUTE: number = 4
+export const SHOW_FILTER_COMPANY: number = 5
+export const SHOW_FILTER_COMPANY_SIZE: number = 6
+export const SHOW_FILTER_EDUCATION_REQUIRED: number = 7
+export const SHOW_FILTER_EMPLOYEE_TYPE: number = 8
+export const SHOW_FILTER_EXPERIENCE_LEVEL: number = 9
+export const SHOW_FILTER_INTERNAL_EXTERNAL: number = 10
+export const SHOW_FILTER_METHODOLOGY: number = 11
+export const SHOW_FILTER_MOBILE: number = 12
+export const SHOW_FILTER_ACCESSIBLE: number = 13
+export const SHOW_FILTER_DRESS_CODE: number = 14
+export const SHOW_FILTER_PETS_ALLOWED: number = 15
+export const SHOW_FILTER_WORKING_FROM_HOME: number = 16
+
+export const SHOW_MENU: number = 20
+export const SHOW_RESULTS: number = 30
+export const SHOW_ACTIVE_FILTERS: number = 40
+
+export const PATH_BASE: string = "/portfolio/job-portal/"
+export const PATH_ABOUT: string = `${PATH_BASE}about`
+export const PATH_INBOX: string = `${PATH_BASE}inbox`
+export const PATH_PROFILE: string = `${PATH_BASE}profile`
+export const PATH_SETTINGS: string = `${PATH_BASE}settings`
+export const PATH_HELP: string = `${PATH_BASE}help`
+export const PATH_CONTACT_US: string = `${PATH_BASE}contactus`
+export const PATH_JOBS_APPLIED: string = `${PATH_BASE}jobsapplied`
+export const PATH_JOB: string = `${PATH_BASE}job`
+export const PATH_JOBS: string = `${PATH_BASE}jobs`
+export const PATH_TERMS: string = `${PATH_BASE}terms`
+export const PATH_COOKIES: string = `${PATH_BASE}cookies`
+export const PATH_FAQS: string = `${PATH_BASE}faqs`
+export const PATH_PRIVACY: string = `${PATH_BASE}privacy`
+export const PATH_NOT_FOUND: string = `${PATH_BASE}notfound`
+
+export const URL_DATA: string = `http://patcoston.com/portfolio/data/`
+//export const URL_DATA: string = `http://localhost:3000$/data/`

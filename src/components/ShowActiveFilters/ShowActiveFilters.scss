@@ -1,0 +1,37 @@
+.show-active-filters {
+    padding: 0;
+    margin: 0;
+
+    h3 {
+        margin-left: 5px;
+    }
+    .show-active-filters-body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5px;
+
+        section {
+            padding: 0;
+            margin: 0;
+        }
+
+        .show-active-filters-close {
+            padding: 0;
+            margin: 0 5px 0 0;
+            cursor: pointer;
+            height: 15px;
+        }
+
+        button {
+            margin-right: 5px;
+        }
+    }
+
+    .filter-title {
+        display: inline-flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,52 @@
+.filter-choose-menu {
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    .filter-choose-menu-button {
+        background: #0a66c2;
+        color: white;
+        padding: 8px 4px;
+        margin: 0;
+    }
+
+    .filter-choose-menu-button button {
+        width: 100%;
+        background: transparent;
+        border: 0;
+        outline: none;
+        color: white;
+    }
+
+    .filter-choose-menu-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .filter-choose-menu-body option {
+        font-size: 13px;
+    }
+
+    .filter-choose-menu-header {
+        padding: 0;
+        margin: 0 0 3px 0;
+    }
+
+    .filter-choose-menu-body option:hover {
+        cursor: pointer;
+        background-color: #eee;
+    }
+}
+
+
+.filter-choose-menu-list {
+    min-height: 85vh;
+
+    option {
+        background: #eef3f8;
+        margin-bottom: 5px;
+        padding: 4px 2px;
+    }
+}

@@ -1,0 +1,51 @@
+.filter-type-menu {
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    .filter-type-menu-body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .filter-type-menu-body ul {
+        margin: 0;
+        //padding: 0 0 5px 5px;
+    }
+
+    .filter-type-menu-body li {
+        list-style: none;
+        text-align: left;
+        margin-left: 0;
+        cursor: pointer;
+        font-size: 13px;
+        border: 1px solid darkgrey;
+        border-radius: 4px;
+        background: #eef3f8;
+        padding: 8px 4px;
+        margin-bottom: 5px;
+    }
+
+    .filter-type-menu-header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 3px 0;
+        background: #0a66c2;
+        color: white;
+        padding: 8px 4px;
+    }
+
+    .filter-type-menu-header div {
+        padding: 0;
+        margin: 0 5px 0 0;
+    }
+
+    .filter-type-menu-close {
+        cursor: pointer;
+        margin-right: 5px;
+    }
+
+    .filter-type-menu-body li:hover {
+        background-color: #eee;
+    }
+}
